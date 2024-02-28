@@ -1,0 +1,92 @@
+Feb 09, 2024 3:19:10 PM tester.Example main
+INFO: This is an informational message.
+Feb 09, 2024 3:19:10 PM tester.Example main
+WARNING: This is a warning message.
+Feb 09, 2024 3:19:10 PM tester.Example main
+SEVERE: This is a severe error message.
+Feb 09, 2024 3:20:18 PM tester.Example main
+INFO: This is an informational message.
+Feb 09, 2024 3:20:18 PM tester.Example main
+WARNING: This is a warning message.
+Feb 09, 2024 3:20:18 PM tester.Example main
+SEVERE: This is a severe error message.
+Feb 09, 2024 3:20:31 PM tester.Example main
+INFO: This is an informational message.
+Feb 09, 2024 3:20:31 PM tester.Example main
+WARNING: This is a warning message.
+Feb 09, 2024 3:20:31 PM tester.Example main
+SEVERE: This is a severe error message.
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-02-09T15:21:14</date>
+  <millis>1707472274115</millis>
+  <sequence>0</sequence>
+  <logger>tester.Example</logger>
+  <level>INFO</level>
+  <class>tester.Example</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is an informational message.</message>
+</record>
+<record>
+  <date>2024-02-09T15:21:14</date>
+  <millis>1707472274127</millis>
+  <sequence>1</sequence>
+  <logger>tester.Example</logger>
+  <level>WARNING</level>
+  <class>tester.Example</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is a warning message.</message>
+</record>
+<record>
+  <date>2024-02-09T15:21:14</date>
+  <millis>1707472274127</millis>
+  <sequence>2</sequence>
+  <logger>tester.Example</logger>
+  <level>SEVERE</level>
+  <class>tester.Example</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is a severe error message.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-02-09T15:23:19</date>
+  <millis>1707472399681</millis>
+  <sequence>0</sequence>
+  <logger>tester.Example</logger>
+  <level>INFO</level>
+  <class>tester.Example</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is an informational message.</message>
+</record>
+<record>
+  <date>2024-02-09T15:23:19</date>
+  <millis>1707472399692</millis>
+  <sequence>1</sequence>
+  <logger>tester.Example</logger>
+  <level>WARNING</level>
+  <class>tester.Example</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is a warning message.</message>
+</record>
+<record>
+  <date>2024-02-09T15:23:19</date>
+  <millis>1707472399692</millis>
+  <sequence>2</sequence>
+  <logger>tester.Example</logger>
+  <level>SEVERE</level>
+  <class>tester.Example</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is a severe error message.</message>
+</record>
+</log>
