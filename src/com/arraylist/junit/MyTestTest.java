@@ -1,3 +1,4 @@
+package com.arraylist.junit;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.ArrayList;
@@ -5,8 +6,8 @@ import java.util.ArrayList;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import arraylist.ArrayListTask;
-import helper.InputInvalidException;
+import com.arraylist.exception.InputInvalidException;
+import com.arraylist.logics.ArrayListTask;
 
 class MyTestTest {
     

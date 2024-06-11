@@ -1,9 +1,9 @@
-package arraylist;
-import helper.Helper;
-import helper.InputInvalidException;
-
+package com.arraylist.logics;
 //import java.util.ArrayList;
 import java.util.List;
+
+import com.arraylist.exception.InputInvalidException;
+import com.arraylist.utilities.Helper;
 
 public class ArrayListTask {
 	
@@ -19,9 +19,8 @@ public class ArrayListTask {
 	    	
 	    }catch(NullPointerException n) {
 	    	
-	    	InputInvalidException i = new InputInvalidException("Array is null",n);
-	    	i.addSuppressed(n);
-	    	throw i;
+	    throw new InputInvalidException("Array is null",n);
+	    	
 	    }
 	}
 	public <E> void addValue(List<E> myList,E value)throws InputInvalidException{

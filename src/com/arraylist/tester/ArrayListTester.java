@@ -1,10 +1,13 @@
-package tester;
-import arraylist.ArrayListTask;
-import helper.InputInvalidException;
-
+package com.arraylist.tester;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import com.arraylist.exception.InputInvalidException;
+import com.arraylist.junit.CustomObject;
+import com.arraylist.junit.TesterObject;
+import com.arraylist.logics.ArrayListTask;
+
 import java.util.Iterator;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package tester;
+package com.arraylist.junit;
 
 import java.util.logging.*;
 

@@ -1,4 +1,4 @@
-package tester;
+package com.arraylist.junit;
 
 public class CustomObject {
 	private String name;
